@@ -1,0 +1,6 @@
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\bin\Debug\AKQA.Website.Common.dll.config
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\bin\Debug\AKQA.Website.Common.dll
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\bin\Debug\AKQA.Website.Common.pdb
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\obj\Debug\AKQA.Website.Common.csprojResolveAssemblyReference.cache
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\obj\Debug\AKQA.Website.Common.dll
+D:\DeskBackup\Dhiraj\Mine\Practices\Assignment\Client\AKQA.Website.Common\obj\Debug\AKQA.Website.Common.pdb

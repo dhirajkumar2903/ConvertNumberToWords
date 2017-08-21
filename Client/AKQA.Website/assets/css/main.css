@@ -1,0 +1,30 @@
+﻿.main-container {
+    position:relative;
+    text-align:center;
+    font-size:16px;
+}
+.heading {
+    font-size:24px;
+    color:grey;
+}
+.main-div-container {
+    border:2px solid #808080;
+    margin: 0 auto;
+    width: 50%;
+}
+.inline-div{
+    width: 50%;
+    display: inline;
+    margin: 10px;
+}
+.div-container {
+    margin:10px;
+}
+.calculated-div {
+    border: 1px solid grey;
+    height: 100px;
+    width: 50%;
+    margin: 0 200px;
+    font-weight:bold;
+    color:darkgreen;
+}

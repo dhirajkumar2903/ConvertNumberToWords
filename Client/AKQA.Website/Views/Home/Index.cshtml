@@ -1,0 +1,50 @@
+﻿@using AKQA.Website.Common
+@model ConvertedResponse
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layouts/_Home.cshtml";
+}
+
+@using (Html.BeginForm("ConvertNumber", "Home", FormMethod.Post))
+{
+    Html.ValidationSummary("");
+    <div class="main-div-container">
+        <div class="div-container">
+            <div class="inline-div">
+                Name:
+            </div>
+            <div class="inline-div">
+                <input type="text" id="txtname" name="Name" />
+                @*@Html.TextBoxFor(m => m.Name)*@
+            </div>
+        </div>
+        <div class="div-container">
+            <div class="inline-div">
+                Number:
+            </div>
+            <div class="inline-div">
+                <input type="text" id="txtnumber" name="Number" />
+                @*@Html.TextBoxFor(m => m.Number)*@
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" id="btnSubmit" />
+        </div>
+        <div class="div-container">
+            <div class="">
+                Converted value:
+            </div>
+            <div class="calculated-div">
+                @if (Model != null && !string.IsNullOrEmpty(Model.Name) && !string.IsNullOrEmpty(Model.ConvertedNumber))
+                {
+                    <label id="lblconvertedvalue">@Model.Name<br />@Model.ConvertedNumber</label>
+                    @*@Html.LabelFor(m=>m.ConvertedNumber)*@
+                }
+                
+            </div>
+        </div>
+    </div>
+}
+
+
